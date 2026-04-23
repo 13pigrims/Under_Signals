@@ -1,0 +1,334 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "narrative_open": "March 14, 2187. You officially begin your post as Customs Inspector at Olympus Station.\n\nThe station chief hands you an ARGUS R7 operator's manual — large sections have been redacted by the military.\n\n\"Don't worry about the black bars,\" he says. \"Just follow protocol. Two ships docking today, both regulars.\"\n\nYou power on the terminal and face the four-quadrant readout for the first time.",
+      "narrative_close_default": "A quiet day. You power down the terminal, thinking this job might not be so hard after all.\n\nBut you notice the lights in the adjacent security bay keep flickering.",
+      "narrative_close_caught": null,
+      "narrative_close_missed": null,
+      "manifest": [
+        { "shipId": "K-002", "intent": "RESUPPLY" },
+        { "shipId": "K-008", "intent": "OFFLOAD" }
+      ],
+      "manifest_display_text": "═══════════════════════════════════════════════════════\nARGUS TERMINAL R7   DAILY SCHEDULED ARRIVALS — DAY 1\n\nROUTE: KILO\nISSUED: 06:00 SST\n\n───────────────────────────────────────────────────────\nID       ETA    INTENT      CARGO          NOTES\n───────────────────────────────────────────────────────\nK-002    0830   RESUPPLY    Ore (full)     Regular supply run.\n                                            No flags on record.\nK-008    1415   OFFLOAD     Fuel/Ore       Returning from mining\n                                            belt. Minor hull\n                                            wear expected.\n───────────────────────────────────────────────────────\n\nNOTES:\n- Standard rotation. Light traffic expected.\n- All vessels are registered K-Route regulars.\n\n═══════════════════════════════════════════════════════",
+"ships": [
+  {
+    "shipId": "K-002",
+    "hullCode": "---*-",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "SQR",
+    "q3_bayB": "SQR",
+    "q3_bayC": "SQR",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 0,
+    "correctCargo": 0,
+    "correctIntent": 0
+  },
+  {
+    "shipId": "K-008",
+    "hullCode": "-*---",
+    "hullRoute": "K",
+    "q2_hull": "YELLOW",
+    "q2_life": "GREEN",
+    "q2_comms": "YELLOW",
+    "q3_bayA": "TRI",
+    "q3_bayB": "SQR",
+    "q3_bayC": "DASH",
+    "q4_waveform": "SQUARE",
+    "q4_intent": "OFFLOAD",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 1,
+    "correctCargo": 3,
+    "correctIntent": 1
+  }
+]
+    },
+
+    {
+      "day": 2,
+      "narrative_open": "Early morning. Lena, the comms officer, leans in and whispers:\n\n\"Last night we intercepted a strange signal on the outer channel... the format was identical to our ARGUS encoding, but the source is unknown.\"\n\nShe trails off and returns to her station without another word.\n\nThree ships today — you're starting to think those redacted sections in the manual might not be \"irrelevant\" after all.",
+      "narrative_close_default": "Your judgment was spot on today. But before clocking out, Lena leaves a note on your desk:\n\n\"Watch the COMMS column. Some things... shouldn't be that color.\"",
+      "narrative_close_caught": "You denied a suspicious vessel. The security alarm triggered briefly, then everything went quiet.\n\nNo one told you what happened. But you saw military personnel hurrying down the corridor.",
+      "narrative_close_missed": "You cleared all ships. That night, a strange metallic scraping echoed from the far end of the corridor.\n\nThe next morning, a cleaning bot found unidentified organic residue in Cargo Bay C-7.",
+      "manifest": [
+        { "shipId": "K-004", "intent": "RESUPPLY" },
+        { "shipId": "K-006", "intent": "OFFLOAD" },
+        { "shipId": "K-001", "intent": "RESUPPLY" }
+      ],
+      "manifest_display_text": "═══════════════════════════════════════════════════════\nARGUS TERMINAL R7   DAILY SCHEDULED ARRIVALS — DAY 2\n\nROUTE: KILO\nISSUED: 06:00 SST\n\n───────────────────────────────────────────────────────\nID       ETA    INTENT      CARGO          NOTES\n───────────────────────────────────────────────────────\nK-004    0700   RESUPPLY    Food (full)    Agri-freighter from\n                                            Ceres loop. Long haul,\n                                            expect life support wear.\nK-006    1100   OFFLOAD     Ore/Food       Trade vessel.\n                                            Quick turnaround\n                                            expected.\nK-001    1530   RESUPPLY    Ore (partial)  Small courier.\n                                            Clean record.\n───────────────────────────────────────────────────────\n\nNOTES:\n- Comms relay reports minor static on outer channels.\n  Likely solar interference.\n- All vessels cleared for standard processing.\n\n═══════════════════════════════════════════════════════",
+"ships": [
+  {
+    "shipId": "K-004",
+    "hullCode": "--*--",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "YELLOW",
+    "q2_comms": "YELLOW",
+    "q3_bayA": "CIRC",
+    "q3_bayB": "CIRC",
+    "q3_bayC": "CIRC",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 1,
+    "correctCargo": 2,
+    "correctIntent": 0
+  },
+  {
+    "shipId": "K-006",
+    "hullCode": "--**-",
+    "hullRoute": "K",
+    "q2_hull": "RED",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "SQR",
+    "q3_bayB": "CIRC",
+    "q3_bayC": "CIRC",
+    "q4_waveform": "SQUARE",
+    "q4_intent": "OFFLOAD",
+    "warningCode": null,
+    "isMimic": true,
+    "correctStatus": 2,
+    "correctCargo": 2,
+    "correctIntent": 1
+  },
+  {
+    "shipId": "K-001",
+    "hullCode": "----*",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "DASH",
+    "q3_bayB": "SQR",
+    "q3_bayC": "SQR",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 0,
+    "correctCargo": 0,
+    "correctIntent": 0
+  }
+]
+    },
+
+    {
+      "day": 3,
+      "narrative_open": "The military issued a new directive: effective immediately, all cargo bays require secondary scans. Reason — \"routine security upgrade.\"\n\nNobody believes that.\n\nLena didn't show up for work today. Her station has been wiped clean, as if no one ever sat there.\n\nYou open the manual and start trying to decode those redacted sections. Maybe there's a pattern hidden underneath.",
+      "narrative_close_default": "You checked every detail — everything passed.\n\nBut as you were logging off, you found an auto-generated warning code in the terminal log — a string of numbers you've never seen in the manual.",
+      "narrative_close_caught": "You flagged a ship. The moment you marked it \"ENTRY DENIED,\" its outer hull showed a subtle... texture shift.\n\nAs if something was imitating metal.\n\nSecurity locked down the berth immediately. No one explained anything to you.",
+      "narrative_close_missed": "Night patrol report: temperature sensors in Sector B corridor showed an anomaly — one zone registered a heat signature consistent with a human body, but no one should have been there.",
+      "manifest": [
+        { "shipId": "K-009", "intent": "OFFLOAD" },
+        { "shipId": "K-002", "intent": "RESUPPLY" },
+        { "shipId": "K-004", "intent": "EMERGENCY" }
+      ],
+      "manifest_display_text": "═══════════════════════════════════════════════════════\nARGUS TERMINAL R7   DAILY SCHEDULED ARRIVALS — DAY 3\n\nROUTE: KILO\nISSUED: 06:00 SST\n\n───────────────────────────────────────────────────────\nID       ETA    INTENT      CARGO          NOTES\n───────────────────────────────────────────────────────\nK-009    0630   OFFLOAD     Fuel (full)    Bulk fuel tanker.\n                                            Standard delivery.\nK-002    1000   RESUPPLY    Ore/Fuel       Life support flagged\n                                            RED in pre-dock scan.\n                                            Possible coolant leak.\nK-004    1400   EMERGENCY   Fuel/Food      Emergency docking.\n                                            Departed only yesterday\n                                            — reason for return\n                                            unclear. Comms garbled.\n───────────────────────────────────────────────────────\n\nNOTES:\n- ADVISORY: Secondary cargo scans now mandatory.\n- K-004: Emergency request. Prioritize accordingly.\n\n═══════════════════════════════════════════════════════",
+"ships": [
+  {
+    "shipId": "K-009",
+    "hullCode": "-*--*",
+    "hullRoute": "K",
+    "q2_hull": "YELLOW",
+    "q2_life": "YELLOW",
+    "q2_comms": "YELLOW",
+    "q3_bayA": "TRI",
+    "q3_bayB": "TRI",
+    "q3_bayC": "TRI",
+    "q4_waveform": "SQUARE",
+    "q4_intent": "OFFLOAD",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 1,
+    "correctCargo": 1,
+    "correctIntent": 1
+  },
+  {
+    "shipId": "K-002",
+    "hullCode": "---*-",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "RED",
+    "q2_comms": "RED",
+    "q3_bayA": "SQR",
+    "q3_bayB": "TRI",
+    "q3_bayC": "DASH",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 2,
+    "correctCargo": 3,
+    "correctIntent": 0
+  },
+  {
+    "shipId": "K-004",
+    "hullCode": "--*--",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "TRI",
+    "q3_bayB": "CIRC",
+    "q3_bayC": "TRI",
+    "q4_waveform": "SAW",
+    "q4_intent": "EMERGENCY",
+    "warningCode": "7874787468",
+    "isMimic": true,
+    "correctStatus": 0,
+    "correctCargo": 3,
+    "correctIntent": 2
+  }
+]
+    },
+
+    {
+      "day": 4,
+      "narrative_open": "The station has entered partial lockdown. Armed patrols are now deployed across the port district.\n\nThe chief calls you into his office:\n\n\"Starting today, you examine every ship carefully. Every quadrant. I can't tell you why — but if you let in something that shouldn't be here, the consequences...\"\n\nHe doesn't finish the sentence.\n\nYou return to your terminal. Three ships today, and all you have is a half-redacted manual.",
+      "narrative_close_default": "Precise judgment. You're beginning to understand the logic behind those redacted rules.\n\nYou can even start predicting which combinations are 'impossible in nature.'",
+      "narrative_close_caught": "You flagged another suspicious vessel. This time you saw it yourself —\n\nAs the denied ship undocked, something was writhing in the gap between its hatch doors. Not a mechanical malfunction.\n\nIt was alive.",
+      "narrative_close_missed": "Another ship entered the port without thorough inspection.\n\nLate that night, a piercing alarm blared from Sector D — it lasted three seconds before being force-muted.\n\nThe next day, Sector D was sealed off entirely by the military.",
+      "manifest": [
+        { "shipId": "K-008", "intent": "RESUPPLY" },
+        { "shipId": "K-006", "intent": "OFFLOAD" },
+        { "shipId": "K-001", "intent": "RESUPPLY" }
+      ],
+      "manifest_display_text": "═══════════════════════════════════════════════════════\nARGUS TERMINAL R7   DAILY SCHEDULED ARRIVALS — DAY 4\n\nROUTE: KILO\nISSUED: 06:00 SST  //  PARTIAL LOCKDOWN IN EFFECT\n\n───────────────────────────────────────────────────────\nID       ETA    INTENT      CARGO          NOTES\n───────────────────────────────────────────────────────\nK-008    0800   RESUPPLY    Food (partial) Hull damage reported.\n                                            Systems degraded but\n                                            functional. Crew\n                                            requesting medical.\nK-006    1130   OFFLOAD     Food/Ore       Repeat visitor. Cargo\n                                            manifest updated en\n                                            route — minor clerical\n                                            correction.\nK-001    1500   RESUPPLY    Ore (full)     Small courier. All\n                                            systems nominal per\n                                            pre-dock telemetry.\n───────────────────────────────────────────────────────\n\nNOTES:\n- Armed escorts assigned to all docking bays.\n- Verify ALL quadrants. No exceptions.\n\n═══════════════════════════════════════════════════════",
+"ships": [
+  {
+    "shipId": "K-008",
+    "hullCode": "-*---",
+    "hullRoute": "K",
+    "q2_hull": "RED",
+    "q2_life": "YELLOW",
+    "q2_comms": "RED",
+    "q3_bayA": "DASH",
+    "q3_bayB": "CIRC",
+    "q3_bayC": "CIRC",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 2,
+    "correctCargo": 2,
+    "correctIntent": 0
+  },
+  {
+    "shipId": "K-006",
+    "hullCode": "--**-",
+    "hullRoute": "K",
+    "q2_hull": "YELLOW",
+    "q2_life": "GREEN",
+    "q2_comms": "YELLOW",
+    "q3_bayA": "CIRC",
+    "q3_bayB": "SQR",
+    "q3_bayC": "SQR",
+    "q4_waveform": "SQUARE",
+    "q4_intent": "OFFLOAD",
+    "warningCode": null,
+    "isMimic": true,
+    "correctStatus": 1,
+    "correctCargo": 2,
+    "correctIntent": 1
+  },
+  {
+    "shipId": "K-001",
+    "hullCode": "----*",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "YELLOW",
+    "q2_comms": "GREEN",
+    "q3_bayA": "SQR",
+    "q3_bayB": "SQR",
+    "q3_bayC": "SQR",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": true,
+    "correctStatus": 1,
+    "correctCargo": 0,
+    "correctIntent": 0
+  }
+]
+    },
+
+    {
+      "day": 5,
+      "narrative_open": "The last day.\n\nAt 0400 hours, the broadcast system played an encrypted message — but the encryption seemed to 'accidentally' fail, and everyone heard it:\n\n\"...MIMIC protocol activated... port isolation countdown 18 hours... all unverified biological entities will be...\"\n\nThe signal cut out there.\n\nYou sit at your terminal. Three more ships. You know what you have to do.\n\nThose redacted sections in the manual — you've worked out all of them by now.\n\nOr at least, you hope you have.",
+      "narrative_close_default": null,
+      "narrative_close_caught": null,
+      "narrative_close_missed": null,
+      "manifest": [
+        { "shipId": "K-004", "intent": "EMERGENCY" },
+        { "shipId": "K-009", "intent": "OFFLOAD" },
+        { "shipId": "K-002", "intent": "RESUPPLY" }
+      ],
+      "manifest_display_text": "═══════════════════════════════════════════════════════\nARGUS TERMINAL R7   DAILY SCHEDULED ARRIVALS — DAY 5\n\nROUTE: KILO\nISSUED: 06:00 SST  //  MIMIC PROTOCOL ACTIVE\n\n───────────────────────────────────────────────────────\nID       ETA    INTENT      CARGO          NOTES\n───────────────────────────────────────────────────────\nK-004    0600   EMERGENCY   Fuel/Ore       DISTRESS — transmitting\n                                            W-01 (SOS). Requesting\n                                            immediate dock. Life\n                                            support critical.\nK-009    1000   OFFLOAD     Ore/Food       Final scheduled trade\n                                            run before lockdown.\n                                            Clean record.\nK-002    1400   RESUPPLY    Fuel (partial) Requesting fuel top-off\n                                            before port closure.\n                                            Standard procedure.\n───────────────────────────────────────────────────────\n\nNOTES:\n- ISOLATION COUNTDOWN ACTIVE. 18 HRS REMAINING.\n- Final vessels before port closure.\n- Inspect with extreme caution.\n\n═══════════════════════════════════════════════════════",
+"ships": [
+  {
+    "shipId": "K-004",
+    "hullCode": "--*--",
+    "hullRoute": "K",
+    "q2_hull": "YELLOW",
+    "q2_life": "RED",
+    "q2_comms": "RED",
+    "q3_bayA": "TRI",
+    "q3_bayB": "SQR",
+    "q3_bayC": "DASH",
+    "q4_waveform": "SAW",
+    "q4_intent": "EMERGENCY",
+    "warningCode": "848084",
+    "isMimic": false,
+    "correctStatus": 2,
+    "correctCargo": 3,
+    "correctIntent": 2
+  },
+  {
+    "shipId": "K-009",
+    "hullCode": "-*--*",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "SQR",
+    "q3_bayB": "CIRC",
+    "q3_bayC": "CIRC",
+    "q4_waveform": "SQUARE",
+    "q4_intent": "OFFLOAD",
+    "warningCode": null,
+    "isMimic": false,
+    "correctStatus": 0,
+    "correctCargo": 2,
+    "correctIntent": 1
+  },
+  {
+    "shipId": "K-002",
+    "hullCode": "---*-",
+    "hullRoute": "K",
+    "q2_hull": "GREEN",
+    "q2_life": "GREEN",
+    "q2_comms": "GREEN",
+    "q3_bayA": "DASH",
+    "q3_bayB": "TRI",
+    "q3_bayC": "DASH",
+    "q4_waveform": "SINE",
+    "q4_intent": "RESUPPLY",
+    "warningCode": null,
+    "isMimic": true,
+    "correctStatus": 0,
+    "correctCargo": 1,
+    "correctIntent": 0
+  }
+]
+    }
+  ]
+}

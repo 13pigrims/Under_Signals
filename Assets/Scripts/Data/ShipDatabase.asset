@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03716cb6112d9984ab9212ca4b23311b, type: 3}
+  m_Name: ShipDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ShipDatabase
+  allShips:
+  - day: 1
+    shipId: K-002
+    hullCode: ---*-
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: SQR
+    q3_bayB: SQR
+    q3_bayC: SQR
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 0
+    cargo: 0
+    intent: 0
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_00/ship_00_morse
+    colorsImage: Ships/ship_00/ship_00_colors
+    shapesImage: Ships/ship_00/ship_00_shapes
+    waveformImage: Ships/ship_00/ship_00_waveform
+    centerIconImage: Ships/ship_00/ship_00_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-002\n> ROUTE: K\n> DAY: 1\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: ---*-\n> Q2 STATUS:    GREEN / GREEN / GREEN\n> Q3 CARGO:    
+      SQR / SQR / SQR\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 1
+    shipId: K-008
+    hullCode: -*---
+    hullRoute: K
+    q2_hull: YELLOW
+    q2_life: GREEN
+    q2_comms: YELLOW
+    q3_bayA: TRI
+    q3_bayB: SQR
+    q3_bayC: DASH
+    q4_waveform: SQUARE
+    q4_intent: OFFLOAD
+    warningCode: 
+    warningCodeMeaning: 
+    status: 1
+    cargo: 3
+    intent: 1
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_01/ship_01_morse
+    colorsImage: Ships/ship_01/ship_01_colors
+    shapesImage: Ships/ship_01/ship_01_shapes
+    waveformImage: Ships/ship_01/ship_01_waveform
+    centerIconImage: Ships/ship_01/ship_01_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-008\n> ROUTE: K\n> DAY: 1\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: -*---\n> Q2 STATUS:    YELLOW / GREEN / YELLOW\n> Q3 CARGO:    
+      TRI / SQR / DASH\n> Q4 WAVEFORM:  SQUARE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 2
+    shipId: K-004
+    hullCode: --*--
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: YELLOW
+    q2_comms: YELLOW
+    q3_bayA: CIRC
+    q3_bayB: CIRC
+    q3_bayC: CIRC
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 1
+    cargo: 2
+    intent: 0
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_02/ship_02_morse
+    colorsImage: Ships/ship_02/ship_02_colors
+    shapesImage: Ships/ship_02/ship_02_shapes
+    waveformImage: Ships/ship_02/ship_02_waveform
+    centerIconImage: Ships/ship_02/ship_02_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-004\n> ROUTE: K\n> DAY: 2\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: --*--\n> Q2 STATUS:    GREEN / YELLOW / YELLOW\n> Q3 CARGO:    
+      CIRC / CIRC / CIRC\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 2
+    shipId: K-006
+    hullCode: --**-
+    hullRoute: K
+    q2_hull: RED
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: SQR
+    q3_bayB: CIRC
+    q3_bayC: CIRC
+    q4_waveform: SQUARE
+    q4_intent: OFFLOAD
+    warningCode: 
+    warningCodeMeaning: 
+    status: 2
+    cargo: 2
+    intent: 1
+    isMimic: 1
+    anomalyExplanation: 
+    morseImage: Ships/ship_03/ship_03_morse
+    colorsImage: Ships/ship_03/ship_03_colors
+    shapesImage: Ships/ship_03/ship_03_shapes
+    waveformImage: Ships/ship_03/ship_03_waveform
+    centerIconImage: Ships/ship_03/ship_03_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-006\n> ROUTE: K\n> DAY: 2\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: --**-\n> Q2 STATUS:    RED / GREEN / GREEN\n> Q3 CARGO:     SQR
+      / CIRC / CIRC\n> Q4 WAVEFORM:  SQUARE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 2
+    shipId: K-001
+    hullCode: ----*
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: DASH
+    q3_bayB: SQR
+    q3_bayC: SQR
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 0
+    cargo: 0
+    intent: 0
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_04/ship_04_morse
+    colorsImage: Ships/ship_04/ship_04_colors
+    shapesImage: Ships/ship_04/ship_04_shapes
+    waveformImage: Ships/ship_04/ship_04_waveform
+    centerIconImage: Ships/ship_04/ship_04_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-001\n> ROUTE: K\n> DAY: 2\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: ----*\n> Q2 STATUS:    GREEN / GREEN / GREEN\n> Q3 CARGO:    
+      DASH / SQR / SQR\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 3
+    shipId: K-009
+    hullCode: -*--*
+    hullRoute: K
+    q2_hull: YELLOW
+    q2_life: YELLOW
+    q2_comms: YELLOW
+    q3_bayA: TRI
+    q3_bayB: TRI
+    q3_bayC: TRI
+    q4_waveform: SQUARE
+    q4_intent: OFFLOAD
+    warningCode: 
+    warningCodeMeaning: 
+    status: 1
+    cargo: 1
+    intent: 1
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_05/ship_05_morse
+    colorsImage: Ships/ship_05/ship_05_colors
+    shapesImage: Ships/ship_05/ship_05_shapes
+    waveformImage: Ships/ship_05/ship_05_waveform
+    centerIconImage: Ships/ship_05/ship_05_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-009\n> ROUTE: K\n> DAY: 3\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: -*--*\n> Q2 STATUS:    YELLOW / YELLOW / YELLOW\n> Q3 CARGO:    
+      TRI / TRI / TRI\n> Q4 WAVEFORM:  SQUARE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 3
+    shipId: K-002
+    hullCode: ---*-
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: RED
+    q2_comms: RED
+    q3_bayA: SQR
+    q3_bayB: TRI
+    q3_bayC: DASH
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 2
+    cargo: 3
+    intent: 0
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_06/ship_06_morse
+    colorsImage: Ships/ship_06/ship_06_colors
+    shapesImage: Ships/ship_06/ship_06_shapes
+    waveformImage: Ships/ship_06/ship_06_waveform
+    centerIconImage: Ships/ship_06/ship_06_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-002\n> ROUTE: K\n> DAY: 3\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: ---*-\n> Q2 STATUS:    GREEN / RED / RED\n> Q3 CARGO:     SQR
+      / TRI / DASH\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 3
+    shipId: K-004
+    hullCode: --*--
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: TRI
+    q3_bayB: CIRC
+    q3_bayC: TRI
+    q4_waveform: SAW
+    q4_intent: EMERGENCY
+    warningCode: 7874787468
+    warningCodeMeaning: 
+    status: 0
+    cargo: 3
+    intent: 2
+    isMimic: 1
+    anomalyExplanation: 
+    morseImage: Ships/ship_07/ship_07_morse
+    colorsImage: Ships/ship_07/ship_07_colors
+    shapesImage: Ships/ship_07/ship_07_shapes
+    waveformImage: Ships/ship_07/ship_07_waveform
+    centerIconImage: Ships/ship_07/ship_07_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-004\n> ROUTE: K\n> DAY: 3\n> WARNING:
+      7874787468\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: --*--\n> Q2 STATUS:    GREEN / GREEN / GREEN\n> Q3 CARGO:    
+      TRI / CIRC / TRI\n> Q4 WAVEFORM:  SAW\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 4
+    shipId: K-008
+    hullCode: -*---
+    hullRoute: K
+    q2_hull: RED
+    q2_life: YELLOW
+    q2_comms: RED
+    q3_bayA: DASH
+    q3_bayB: CIRC
+    q3_bayC: CIRC
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 2
+    cargo: 2
+    intent: 0
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_08/ship_08_morse
+    colorsImage: Ships/ship_08/ship_08_colors
+    shapesImage: Ships/ship_08/ship_08_shapes
+    waveformImage: Ships/ship_08/ship_08_waveform
+    centerIconImage: Ships/ship_08/ship_08_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-008\n> ROUTE: K\n> DAY: 4\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: -*---\n> Q2 STATUS:    RED / YELLOW / RED\n> Q3 CARGO:     DASH
+      / CIRC / CIRC\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 4
+    shipId: K-006
+    hullCode: --**-
+    hullRoute: K
+    q2_hull: YELLOW
+    q2_life: GREEN
+    q2_comms: YELLOW
+    q3_bayA: CIRC
+    q3_bayB: SQR
+    q3_bayC: SQR
+    q4_waveform: SQUARE
+    q4_intent: OFFLOAD
+    warningCode: 
+    warningCodeMeaning: 
+    status: 1
+    cargo: 2
+    intent: 1
+    isMimic: 1
+    anomalyExplanation: 
+    morseImage: Ships/ship_09/ship_09_morse
+    colorsImage: Ships/ship_09/ship_09_colors
+    shapesImage: Ships/ship_09/ship_09_shapes
+    waveformImage: Ships/ship_09/ship_09_waveform
+    centerIconImage: Ships/ship_09/ship_09_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-006\n> ROUTE: K\n> DAY: 4\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: --**-\n> Q2 STATUS:    YELLOW / GREEN / YELLOW\n> Q3 CARGO:    
+      CIRC / SQR / SQR\n> Q4 WAVEFORM:  SQUARE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 4
+    shipId: K-001
+    hullCode: ----*
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: YELLOW
+    q2_comms: GREEN
+    q3_bayA: SQR
+    q3_bayB: SQR
+    q3_bayC: SQR
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 1
+    cargo: 0
+    intent: 0
+    isMimic: 1
+    anomalyExplanation: 
+    morseImage: Ships/ship_10/ship_10_morse
+    colorsImage: Ships/ship_10/ship_10_colors
+    shapesImage: Ships/ship_10/ship_10_shapes
+    waveformImage: Ships/ship_10/ship_10_waveform
+    centerIconImage: Ships/ship_10/ship_10_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-001\n> ROUTE: K\n> DAY: 4\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: ----*\n> Q2 STATUS:    GREEN / YELLOW / GREEN\n> Q3 CARGO:    
+      SQR / SQR / SQR\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 5
+    shipId: K-004
+    hullCode: --*--
+    hullRoute: K
+    q2_hull: YELLOW
+    q2_life: RED
+    q2_comms: RED
+    q3_bayA: TRI
+    q3_bayB: SQR
+    q3_bayC: DASH
+    q4_waveform: SAW
+    q4_intent: EMERGENCY
+    warningCode: 848084
+    warningCodeMeaning: 
+    status: 2
+    cargo: 3
+    intent: 2
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_11/ship_11_morse
+    colorsImage: Ships/ship_11/ship_11_colors
+    shapesImage: Ships/ship_11/ship_11_shapes
+    waveformImage: Ships/ship_11/ship_11_waveform
+    centerIconImage: Ships/ship_11/ship_11_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-004\n> ROUTE: K\n> DAY: 5\n> WARNING:
+      848084\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: --*--\n> Q2 STATUS:    YELLOW / RED / RED\n> Q3 CARGO:     TRI
+      / SQR / DASH\n> Q4 WAVEFORM:  SAW\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 5
+    shipId: K-009
+    hullCode: -*--*
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: SQR
+    q3_bayB: CIRC
+    q3_bayC: CIRC
+    q4_waveform: SQUARE
+    q4_intent: OFFLOAD
+    warningCode: 
+    warningCodeMeaning: 
+    status: 0
+    cargo: 2
+    intent: 1
+    isMimic: 0
+    anomalyExplanation: 
+    morseImage: Ships/ship_12/ship_12_morse
+    colorsImage: Ships/ship_12/ship_12_colors
+    shapesImage: Ships/ship_12/ship_12_shapes
+    waveformImage: Ships/ship_12/ship_12_waveform
+    centerIconImage: Ships/ship_12/ship_12_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-009\n> ROUTE: K\n> DAY: 5\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: -*--*\n> Q2 STATUS:    GREEN / GREEN / GREEN\n> Q3 CARGO:    
+      SQR / CIRC / CIRC\n> Q4 WAVEFORM:  SQUARE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  - day: 5
+    shipId: K-002
+    hullCode: ---*-
+    hullRoute: K
+    q2_hull: GREEN
+    q2_life: GREEN
+    q2_comms: GREEN
+    q3_bayA: DASH
+    q3_bayB: TRI
+    q3_bayC: DASH
+    q4_waveform: SINE
+    q4_intent: RESUPPLY
+    warningCode: 
+    warningCodeMeaning: 
+    status: 0
+    cargo: 1
+    intent: 0
+    isMimic: 1
+    anomalyExplanation: 
+    morseImage: Ships/ship_13/ship_13_morse
+    colorsImage: Ships/ship_13/ship_13_colors
+    shapesImage: Ships/ship_13/ship_13_shapes
+    waveformImage: Ships/ship_13/ship_13_waveform
+    centerIconImage: Ships/ship_13/ship_13_center_icon
+    terminalRevealText: "> SIGNAL SOURCE: K-002\n> ROUTE: K\n> DAY: 5\n> WARNING:
+      NONE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      Q1 HULL CODE: ---*-\n> Q2 STATUS:    GREEN / GREEN / GREEN\n> Q3 CARGO:    
+      DASH / TRI / DASH\n> Q4 WAVEFORM:  SINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n>
+      AWAITING DECODE..."
+  dayNarratives:
+  - day: 1
+    narrativeOpen: "March 14, 2187. You officially begin your post as Customs Inspector
+      at Olympus Station.\n\nThe station chief hands you an ARGUS R7 operator's manual
+      \u2014 large sections have been redacted by the military.\n\n\"Don't worry
+      about the black bars,\" he says. \"Just follow protocol. Two ships docking
+      today, both regulars.\"\n\nYou power on the terminal and face the four-quadrant
+      readout for the first time."
+    narrativeCloseDefault: 'A quiet day. You power down the terminal, thinking this
+      job might not be so hard after all.
+
+
+      But you notice the lights in the
+      adjacent security bay keep flickering.'
+    narrativeCloseCaught: 
+    narrativeCloseMissed: 
+    manifestDisplayText: "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nARGUS
+      TERMINAL R7   DAILY SCHEDULED ARRIVALS \u2014 DAY 1\n\nROUTE: KILO\nISSUED:
+      06:00 SST\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nID      
+      ETA    INTENT      CARGO          NOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nK-002   
+      0830   RESUPPLY    Ore (full)     Regular supply run.\n                                           
+      No flags on record.\nK-008    1415   OFFLOAD     Fuel/Ore       Returning from
+      mining\n                                            belt. Minor hull\n                                           
+      wear expected.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nNOTES:\n-
+      Standard rotation. Light traffic expected.\n- All vessels are registered K-Route
+      regulars.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    manifest:
+    - shipId: K-002
+      intent: RESUPPLY
+    - shipId: K-008
+      intent: OFFLOAD
+  - day: 2
+    narrativeOpen: "Early morning. Lena, the comms officer, leans in and whispers:\n\n\"Last
+      night we intercepted a strange signal on the outer channel... the format was
+      identical to our ARGUS encoding, but the source is unknown.\"\n\nShe trails
+      off and returns to her station without another word.\n\nThree ships today \u2014
+      you're starting to think those redacted sections in the manual might not be
+      \"irrelevant\" after all."
+    narrativeCloseDefault: 'Your judgment was spot on today. But before clocking
+      out, Lena leaves a note on your desk:
+
+
+      "Watch the COMMS column. Some
+      things... shouldn''t be that color."'
+    narrativeCloseCaught: 'You denied a suspicious vessel. The security alarm triggered
+      briefly, then everything went quiet.
+
+
+      No one told you what happened.
+      But you saw military personnel hurrying down the corridor.'
+    narrativeCloseMissed: 'You cleared all ships. That night, a strange metallic
+      scraping echoed from the far end of the corridor.
+
+
+      The next morning,
+      a cleaning bot found unidentified organic residue in Cargo Bay C-7.'
+    manifestDisplayText: "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nARGUS
+      TERMINAL R7   DAILY SCHEDULED ARRIVALS \u2014 DAY 2\n\nROUTE: KILO\nISSUED:
+      06:00 SST\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nID      
+      ETA    INTENT      CARGO          NOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nK-004   
+      0700   RESUPPLY    Food (full)    Agri-freighter from\n                                           
+      Ceres loop. Long haul,\n                                            expect
+      life support wear.\nK-006    1100   OFFLOAD     Ore/Food       Trade vessel.\n                                           
+      Quick turnaround\n                                            expected.\nK-001   
+      1530   RESUPPLY    Ore (partial)  Small courier.\n                                           
+      Clean record.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nNOTES:\n-
+      Comms relay reports minor static on outer channels.\n  Likely solar interference.\n-
+      All vessels cleared for standard processing.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    manifest:
+    - shipId: K-004
+      intent: RESUPPLY
+    - shipId: K-006
+      intent: OFFLOAD
+    - shipId: K-001
+      intent: RESUPPLY
+  - day: 3
+    narrativeOpen: "The military issued a new directive: effective immediately, all
+      cargo bays require secondary scans. Reason \u2014 \"routine security upgrade.\"\n\nNobody
+      believes that.\n\nLena didn't show up for work today. Her station has been
+      wiped clean, as if no one ever sat there.\n\nYou open the manual and start
+      trying to decode those redacted sections. Maybe there's a pattern hidden underneath."
+    narrativeCloseDefault: "You checked every detail \u2014 everything passed.\n\nBut
+      as you were logging off, you found an auto-generated warning code in the terminal
+      log \u2014 a string of numbers you've never seen in the manual."
+    narrativeCloseCaught: 'You flagged a ship. The moment you marked it "ENTRY DENIED,"
+      its outer hull showed a subtle... texture shift.
+
+
+      As if something was
+      imitating metal.
+
+
+      Security locked down the berth immediately. No one
+      explained anything to you.'
+    narrativeCloseMissed: "Night patrol report: temperature sensors in Sector B corridor
+      showed an anomaly \u2014 one zone registered a heat signature consistent with
+      a human body, but no one should have been there."
+    manifestDisplayText: "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nARGUS
+      TERMINAL R7   DAILY SCHEDULED ARRIVALS \u2014 DAY 3\n\nROUTE: KILO\nISSUED:
+      06:00 SST\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nID      
+      ETA    INTENT      CARGO          NOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nK-009   
+      0630   OFFLOAD     Fuel (full)    Bulk fuel tanker.\n                                           
+      Standard delivery.\nK-002    1000   RESUPPLY    Ore/Fuel       Life support
+      flagged\n                                            RED in pre-dock scan.\n                                           
+      Possible coolant leak.\nK-004    1400   EMERGENCY   Fuel/Food      Emergency
+      docking.\n                                            Departed only yesterday\n                                           
+      \u2014 reason for return\n                                            unclear.
+      Comms garbled.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nNOTES:\n-
+      ADVISORY: Secondary cargo scans now mandatory.\n- K-004: Emergency request.
+      Prioritize accordingly.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    manifest:
+    - shipId: K-009
+      intent: OFFLOAD
+    - shipId: K-002
+      intent: RESUPPLY
+    - shipId: K-004
+      intent: EMERGENCY
+  - day: 4
+    narrativeOpen: "The station has entered partial lockdown. Armed patrols are now
+      deployed across the port district.\n\nThe chief calls you into his office:\n\n\"Starting
+      today, you examine every ship carefully. Every quadrant. I can't tell you why
+      \u2014 but if you let in something that shouldn't be here, the consequences...\"\n\nHe
+      doesn't finish the sentence.\n\nYou return to your terminal. Three ships today,
+      and all you have is a half-redacted manual."
+    narrativeCloseDefault: 'Precise judgment. You''re beginning to understand the
+      logic behind those redacted rules.
+
+
+      You can even start predicting which
+      combinations are ''impossible in nature.'''
+    narrativeCloseCaught: "You flagged another suspicious vessel. This time you saw
+      it yourself \u2014\n\nAs the denied ship undocked, something was writhing in
+      the gap between its hatch doors. Not a mechanical malfunction.\n\nIt was alive."
+    narrativeCloseMissed: "Another ship entered the port without thorough inspection.\n\nLate
+      that night, a piercing alarm blared from Sector D \u2014 it lasted three seconds
+      before being force-muted.\n\nThe next day, Sector D was sealed off entirely
+      by the military."
+    manifestDisplayText: "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nARGUS
+      TERMINAL R7   DAILY SCHEDULED ARRIVALS \u2014 DAY 4\n\nROUTE: KILO\nISSUED:
+      06:00 SST  //  PARTIAL LOCKDOWN IN EFFECT\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nID      
+      ETA    INTENT      CARGO          NOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nK-008   
+      0800   RESUPPLY    Food (partial) Hull damage reported.\n                                           
+      Systems degraded but\n                                            functional.
+      Crew\n                                            requesting medical.\nK-006   
+      1130   OFFLOAD     Food/Ore       Repeat visitor. Cargo\n                                           
+      manifest updated en\n                                            route \u2014
+      minor clerical\n                                            correction.\nK-001   
+      1500   RESUPPLY    Ore (full)     Small courier. All\n                                           
+      systems nominal per\n                                            pre-dock telemetry.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nNOTES:\n-
+      Armed escorts assigned to all docking bays.\n- Verify ALL quadrants. No exceptions.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    manifest:
+    - shipId: K-008
+      intent: RESUPPLY
+    - shipId: K-006
+      intent: OFFLOAD
+    - shipId: K-001
+      intent: RESUPPLY
+  - day: 5
+    narrativeOpen: "The last day.\n\nAt 0400 hours, the broadcast system played an
+      encrypted message \u2014 but the encryption seemed to 'accidentally' fail,
+      and everyone heard it:\n\n\"...MIMIC protocol activated... port isolation countdown
+      18 hours... all unverified biological entities will be...\"\n\nThe signal cut
+      out there.\n\nYou sit at your terminal. Three more ships. You know what you
+      have to do.\n\nThose redacted sections in the manual \u2014 you've worked out
+      all of them by now.\n\nOr at least, you hope you have."
+    narrativeCloseDefault: 
+    narrativeCloseCaught: 
+    narrativeCloseMissed: 
+    manifestDisplayText: "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nARGUS
+      TERMINAL R7   DAILY SCHEDULED ARRIVALS \u2014 DAY 5\n\nROUTE: KILO\nISSUED:
+      06:00 SST  //  MIMIC PROTOCOL ACTIVE\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nID      
+      ETA    INTENT      CARGO          NOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nK-004   
+      0600   EMERGENCY   Fuel/Ore       DISTRESS \u2014 transmitting\n                                           
+      W-01 (SOS). Requesting\n                                            immediate
+      dock. Life\n                                            support critical.\nK-009   
+      1000   OFFLOAD     Ore/Food       Final scheduled trade\n                                           
+      run before lockdown.\n                                            Clean record.\nK-002   
+      1400   RESUPPLY    Fuel (partial) Requesting fuel top-off\n                                           
+      before port closure.\n                                            Standard
+      procedure.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\nNOTES:\n-
+      ISOLATION COUNTDOWN ACTIVE. 18 HRS REMAINING.\n- Final vessels before port
+      closure.\n- Inspect with extreme caution.\n\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+    manifest:
+    - shipId: K-004
+      intent: EMERGENCY
+    - shipId: K-009
+      intent: OFFLOAD
+    - shipId: K-002
+      intent: RESUPPLY
